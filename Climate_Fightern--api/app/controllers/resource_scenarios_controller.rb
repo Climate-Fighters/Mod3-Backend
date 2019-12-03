@@ -1,0 +1,2 @@
+class ResourceScenariosController < ApplicationController
+end

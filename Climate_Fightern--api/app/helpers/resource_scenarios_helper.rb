@@ -1,0 +1,2 @@
+module ResourceScenariosHelper
+end

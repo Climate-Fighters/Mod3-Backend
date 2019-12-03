@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :resource_scenarios
+  resources :scenarios
   resources :questions
   resources :responses
   resources :country_resources
