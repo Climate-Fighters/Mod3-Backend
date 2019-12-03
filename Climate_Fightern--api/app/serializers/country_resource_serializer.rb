@@ -1,5 +1,5 @@
 class CountryResourceSerializer < ActiveModel::Serializer
-  attributes :id, :production, :resource
+  attributes :id, :production#, :resource
   # belongs_to :country
-  # belongs_to :resource
+  belongs_to :resource
 end
