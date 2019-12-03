@@ -1,0 +1,2 @@
+module CountryResourcesHelper
+end
