@@ -1,5 +1,5 @@
 class ResourceScenarioSerializer < ActiveModel::Serializer
-  attributes :id, :yield
-  has_one :resource
-  has_one :scenario
+  attributes :id, :yield, :resource, :scenario
+  # belongs_to :resource
+  # belongs_to :scenario
 end
